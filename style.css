@@ -1,13 +1,104 @@
+*{
+    color:white;
+}
+
 body {
-  background-color: lightblue;
+    background-image:linear-gradient(to right, blue, black)
 }
 
-h1 {
-  color: white;
-  text-align: center;
+.navbar{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #716e91;
+    overflow: hidden;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.bar {
+    display: inline;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(43, 42, 42);
+}
+
+.btn_grp {
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.btn_grp button{
+    width: 20%;
+    height: 125px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    margin: 10px
+}
+
+.btn_grp:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.btn_grp button:hover{
+    color:white;
+    background-color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bagels {
+    background-image: url(bagel_SS.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.translater {
+    background-image: url(creat_SS.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.btn_grp button:active {
+    transform: scale(5);
+    transition-duration: 2s;
+}
+
+.bagels:active {
+    display: block;
+    margin: auto;
 }
