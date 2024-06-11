@@ -5,11 +5,11 @@
     color: white;
   }
   
-body {
+  body {
     background-image: linear-gradient(to right, blue, black);
   }
   
-.hamburger, .close {
+  .hamburger, .close {
     border: none;
     cursor: pointer;
     position: absolute;
@@ -19,21 +19,21 @@ body {
     height: 36px;
   }
   
-.hamburger {
+  .hamburger {
     background: white
   }
   
-.close {
+  .close {
     background: white;
   }
   
-.hamburger img, .close img {
+  .hamburger img, .close img {
     width: 100%;
     height: 100%;
   }
   
 .navbar {
-    position: absolute;
+  position: absolute;
     z-index: 1000;
     top: 0;
     left: 0;
@@ -51,10 +51,10 @@ body {
 }
   
 .navbar:target {
-    transform: translateY(0);
+  transform: translateY(0);
 }
   
-li a {
+  li a {
     display: block;
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -65,10 +65,11 @@ li a {
     padding-bottom: 0.5rem;
   }
   
-li a:hover, li a:focus {
+  li a:hover, li a:focus {
     border-bottom: 1px solid white;
   }
 
 h1{
     text-align: center;
 }
+
